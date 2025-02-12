@@ -22,10 +22,7 @@ createBtn.addEventListener("click", () => {
 
     let img = document.createElement("img");
     img.src = "images/delete.png";
-
     delBtn.appendChild(img);
-    
-    // Append input box and delete button separately
     note.appendChild(inputBox);
     note.appendChild(delBtn);
     notesContainer.appendChild(note);
